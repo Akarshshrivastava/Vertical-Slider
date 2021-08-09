@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vertical Slider</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="slider-container">
+      <div class="left-slide">
+        <div
+          style="
+            background-image: linear-gradient(-45deg, #ffc796 0%, #ff6b95 100%);
+          "
+        >
+          <h1>Let's Go</h1>
+          <p>Driving in my own lane</p>
+        </div>
+        <div
+          style="
+            background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+          "
+        >
+          <h1>Любовь</h1>
+          <p>Universal Love</p>
+        </div>
+        <div
+          style="
+            background-color: #cddcdc;
+            background-image: radial-gradient(
+                at 50% 100%,
+                rgba(255, 255, 255, 0.5) 0%,
+                rgba(0, 0, 0, 0.5) 100%
+              ),
+              linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.25) 0%,
+                rgba(0, 0, 0, 0.25) 100%
+              );
+            background-blend-mode: screen, overlay;
+            color: black;
+          "
+        >
+          <h1>Up & Up</h1>
+          <p>Face your fears</p>
+        </div>
+        <div
+          style="
+            background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+          "
+        >
+          <h1>Mind Space</h1>
+          <p>My sweet little home</p>
+        </div>
+      </div>
+      <div class="right-slide">
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1495954222046-2c427ecb546d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1456426143385-2d6ae5764c6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1522885147691-06d859633fb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1538592116845-119a3974c958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80');
+          "
+        ></div>
+      </div>
+      <div class="action-buttons">
+        <button class="down-btn"><i class="fas fa-arrow-down"></i></button>
+        <button class="up-btn"><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
